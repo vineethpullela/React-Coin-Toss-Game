@@ -1,0 +1,65 @@
+.app-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.toss-game-container {
+  background-color: #ffffff;
+  height: 70vh;
+  width: 50%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading {
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 35px;
+}
+
+.game-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 19px;
+}
+
+.coin-img {
+  height: 200px;
+  width: 200px;
+}
+
+.toss-button {
+  background-color: #e2a139;
+  color: #a35200;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.results-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.result-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  margin-right: 28px;
+}
